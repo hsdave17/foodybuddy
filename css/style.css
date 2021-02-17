@@ -1,0 +1,242 @@
+/* Common Styles */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+ul {
+  list-style-type: square;
+  list-style-position: inside;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+.wrapper {
+  width: 100%;
+}
+
+/* Header Section Styles */
+.header {
+  width: 100%;  
+  background-color: #000000;
+}
+.link_none {
+  text-decoration: none;
+  color: #ffffff;
+}
+.navbar {
+  padding: 0.5rem 0;
+}
+.nav_text {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  text-align: left;
+}
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.nav_text:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+.nav-link:active {
+  text-decoration: none;
+  color: #ffffff;
+}
+.element_direction {
+  float: right;
+}
+
+/* Media Query For Header Section Styles */
+@media only screen and (max-width:992px) {
+  
+  .logo_center {
+    text-align: center;
+  }
+  .element_direction {
+    float: none;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* Main Section Styles */
+.main {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+/* Banner Section Styles */
+.banner_section {
+  width: 100%;
+}
+.bg_img {
+  background-image: url('../img/bg_img.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  max-width: 100%;
+  height:300px;
+  padding-top: 92px;
+  padding-bottom: 92px;
+}
+.banner_style {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 250px;
+  margin: auto;
+  padding: 2%;
+  border-radius: 10px;
+}
+.hurry_text {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+}
+.delight_text {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/* Content Section Styles */
+.content_section {
+  width: 100%;
+}
+.card {
+  border: 1px solid #000000;
+}
+.card-title {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  line-height: 24px;
+  color: #000000;
+  text-align: center;
+}
+.card-text {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  text-align: center;
+}
+.btn_order {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+  background-color: #000000;
+  border-radius: 5px;
+  margin: auto;
+  display: block;
+}
+a.btn_order:hover {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+
+/* Media Query For Content Section Styles */
+@media only screen and (max-width:767px) {
+  .pad_top_20 {
+    padding-top: 20px;
+  }
+}
+
+/* Footer Section Styles */
+.footer {
+  width: 100%;  
+  background-color: #ffae00;
+}
+.footer_text {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+/* Contact Section Styles */
+.contact_section {
+  width: 100%;  
+  background-color: #ffffff;
+}
+.contact_text {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 0;
+}
+.contact_text:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* About Section Styles */
+.about_section {
+  width: 100%;  
+  background-color: #ffffff;
+}
+.about_title_text {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  color: #000000;
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.get_text {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ff0000;
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.list_text {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+/* Media Query For About Section Styles */
+@media only screen and (max-width:767px) {
+  .pl-5 {
+    padding-left: 0 !important;
+  }
+}
